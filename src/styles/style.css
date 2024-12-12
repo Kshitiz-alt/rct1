@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "MV Boli";
+}
+
+.Musio {
+  font-family: Monotype Corsiva;
+}
+
+
+body {
+  color: white;
+  background-image: url(Scenery.jpg);
+  background-attachment: fixed;
+}  
+
+
+.right {
+  width: 75vw;
+  position: relative;
+  overflow-y: scroll;
+}
+.right::-webkit-scrollbar {
+  width: 12px;
+} /* Track */ 
+.right::-webkit-scrollbar-track {
+  
+  border-radius: 6px; 
+} /* Handle */ 
+.right::-webkit-scrollbar-thumb { 
+   
+  border-radius: 6px; 
+} /* Handle on hover */ 
+.right::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255,0.1);
+}  
+.card.cardborder{
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+  margin: 14px 0px;
+}
+
+.footer {
+  display: flex;
+  font-size: 10px;
+  color: gray;
+  position: absolute;
+  bottom: 0;
+}
+.footer a {
+  color: gray;
+}
+.MusioPlaylists {
+  padding: 15px;
+}
+.MusioPlaylists .card {
+  width: 250px;
+  background-color: grey;
+}
+
+.Musio-Playlists {
+  font-size: 40px;
+  font-family: MV Boli;
+}
+
+.MusioPlaylists {
+  position: relative;
+  font-size: 20px;
+}
+.playbar {
+  position: absolute;
+  bottom: 0;
+  background-color: rgb(161, 134, 192);
+  width: 85%;
+  padding: 21px;
+  border-radius: 50px;
+  bottom: 13px;
+}
+.previousplay {
+  padding-right: 12px;
+}
+.play {
+  padding-right: 12px;
+}

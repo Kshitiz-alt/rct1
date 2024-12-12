@@ -1,0 +1,23 @@
+.play{
+    margin: 0;
+    padding: 0px;
+    font-family: 'roboto', sans-serif;
+    width: 28px;
+    height: 28px;
+    color: rgb(255, 2, 150);
+    fill: none;
+    border:#3d1239;
+    border-radius: 1px;
+}
+.play svg{
+    color: white;
+    padding: 16px;
+    padding-top: 50px;
+}
+.play svg:hover{
+    color: rgb(255, 0, 0);
+}
+.play:hover{  
+    font-size: 32px;
+    color: rgb(255, 67, 242) ;
+}
