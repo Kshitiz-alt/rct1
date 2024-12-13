@@ -2,8 +2,21 @@
     width: 25vw;
     padding: 0px
 }
+.Name{
+    font-size: 42px;
+    margin-top: -65px;
+}
+.Home-Search{
+    margin-top: 4px;
+
+}
+.Musio-Btn{
+    margin-left: -250px;
+    border-radius: 45px;
+    padding: 10px;
+}
 .Musio h1{
-    margin-top: -45px;
+    margin-top: -55px;
     font-size: 3rem;
 }
 .Home{
@@ -66,6 +79,6 @@
     margin: 6px 10px;
 }
 .library{
-    min-height:  65vh;
+    min-height:  71vh;
     position: relative;
 }
