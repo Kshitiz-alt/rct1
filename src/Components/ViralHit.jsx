@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 import '../styles/viralhit.css'
-
+//Accordian under playlists for your fav songs//
 export default function ViralHit() {
     return (
         <div className="accordion" id="accordionExample">

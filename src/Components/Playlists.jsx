@@ -2,7 +2,7 @@
 // eslint-disable-next-line no-unused-vars
 import React  from 'react'
 import ViralHit from './ViralHit'
-
+//Playlists Section//
 export default function Playlists() {
     return (
         <div className="Musio Playlists">

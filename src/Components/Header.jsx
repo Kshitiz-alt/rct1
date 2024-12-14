@@ -2,6 +2,7 @@
 import React from 'react'
 
 import Login from '/Login.svg'
+//HERE is the Header
 export default function Header() {
   return (
     <div className="header">

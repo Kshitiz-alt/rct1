@@ -13,7 +13,7 @@ import App from './App.jsx'
 
 
 
-
+//Main root connected to html//
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
