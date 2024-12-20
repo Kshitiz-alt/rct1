@@ -8,13 +8,14 @@
 
 .Musio {
   font-family: Monotype Corsiva;
+  margin-top: 100px;
+  
 }
 
 
 body {
   color: white;
-  background-image: url(Scenery.jpg);
-  background-attachment: fixed;
+  /* background-color: */
 }  
 
 
@@ -37,11 +38,6 @@ body {
 .right::-webkit-scrollbar-thumb:hover {
     background: rgba(255, 255, 255,0.1);
 }  
-.card.cardborder{
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 25px;
-  margin: 14px 0px;
-}
 
 .footer {
   display: flex;
@@ -69,19 +65,4 @@ body {
 .MusioPlaylists {
   position: relative;
   font-size: 20px;
-}
-.playbar {
-  position: absolute;
-  bottom: 0;
-  background-color: rgb(161, 134, 192);
-  width: 85%;
-  padding: 21px;
-  border-radius: 50px;
-  bottom: 13px;
-}
-.previousplay {
-  padding-right: 12px;
-}
-.play {
-  padding-right: 12px;
 }

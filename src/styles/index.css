@@ -3,9 +3,10 @@
   
   font-weight: 400;
 
-  color-scheme: light dark;
+  
 
-  background-image:url(../Images/Scenery.jpg) ;
+  background-image:url(../Images/lightmode.png) ;
+  
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -34,7 +35,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.6);
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -57,4 +58,21 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+.Playcard-1{
+  width: 25%;
+  border-radius: 300px;
+
+}
+.Playcard{
+  margin: 40px 0px;
+}
+.Playcard1-desc{
+  font-size: 20px;
+}
+.Playcard1-Name{
+  font-size: 30px;
+}
+.Playcard:hover{
+  cursor: pointer;
 }

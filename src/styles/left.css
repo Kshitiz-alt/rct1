@@ -15,6 +15,7 @@
     border-radius: 45px;
     padding: 10px;
     transition: text-shadow 0.3s ease, background-color 0.3s ease;
+    background-color: rgb(255, 228, 196,0.2);
 }
 .Musio-Btn:hover{
     color: bisque;
@@ -38,9 +39,11 @@
     margin-left: -10px; */
     transition: text-shadow 0.3s ease, background-color 0.3s ease;
     border-radius: 25px;
+    font-size: 30px;
 }
 .Home:hover{
     color: bisque;
+    cursor: pointer;
     text-shadow: 0 0 0px 0px rgba(255, 255, 255, 0.3);
     background-color: rgba(255, 255, 255, 0.2);
 }
@@ -72,6 +75,6 @@
     margin: 6px 18px;
 }
 .library{
-    min-height:  89vh;
+    min-height:  86vh;
     position: relative;
 }

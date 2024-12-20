@@ -14,21 +14,23 @@ function App() {
   // useState used for background toggle
   const [mystyle, setMystyle] = useState({
     // color: 'white',
-    backgroundImage: 'url(../images/Scenery.jpg)',
+    backgroundImage: 'url(../images/lightmode.png)',
     backgroundSize: 'cover'
+
+
   })
 
   // interchange between background
   const togglestyle = () => {
-    if (mystyle.backgroundImage == 'url(../images/Scenery.jpg)') {
+    if (mystyle.backgroundImage == 'url(../images/lightmode.png)') {
       setMystyle({
-        backgroundImage: 'url(../images/Nightmode.jpg)',
+        backgroundImage: 'url(../images/darkmode.png)',
         backgroundSize: 'cover'
       })
     }
     else {
       setMystyle({
-        backgroundImage: 'url(../images/Scenery.jpg)',
+        backgroundImage: 'url(../images/lightmode.png)',
         backgroundSize: 'cover'
       })
     }
@@ -44,7 +46,7 @@ function App() {
           <button className="Musio-Btn" onClick={togglestyle}>
             <img src={MusioLogo} alt="MusioLogo" />
           </button>
-          <div className="Name">Musio</div>
+          <div className="Name">LYTTE</div>
           <LibraryLeft/>
         </div>
 

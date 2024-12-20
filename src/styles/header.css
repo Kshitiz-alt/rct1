@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
     gap: 4px;
+    position: fixed;
+    z-index: 1000;
 }
 .header > *{
     padding: 7px;
@@ -25,6 +27,11 @@
     padding: 8px;
     border-radius: 10px;
     font-size: 20px;
+    margin-right: 20px;
+}
+.form-control{
+    background-color: rgb(255, 248, 220,0.6);
+
 }
 .buttons{
     transition: text-shadow 0.5s ease, background-color 0.5s ease;
