@@ -13,7 +13,7 @@
 .Musio-Btn{
     margin-left: -250px;
     border-radius: 45px;
-    padding: 10px;
+    padding: 8px 10px;
     transition: text-shadow 0.3s ease, background-color 0.3s ease;
     background-color: rgb(255, 228, 196,0.2);
 }
@@ -32,11 +32,12 @@
     color: white;
     border-radius: 20px
 }
-
+.Home0{
+    margin: 5px 1px;
+}
 .Home1{
     margin: 9px 50px;
-    /* margin-top: -43px;
-    margin-left: -10px; */
+
     transition: text-shadow 0.3s ease, background-color 0.3s ease;
     border-radius: 25px;
     font-size: 30px;
@@ -46,34 +47,9 @@
     cursor: pointer;
     text-shadow: 0 0 0px 0px rgba(255, 255, 255, 0.3);
     background-color: rgba(255, 255, 255, 0.2);
+    border:1px solid white;
 }
 
-.library::-webkit-scrollbar {
-    width: 12px;
-} /* Track */ 
-.library::-webkit-scrollbar-track {
-    
-    border-radius: 6px; 
-} /* Handle */ 
-.library::-webkit-scrollbar-thumb { 
-     
-    border-radius: 6px; 
-} /* Handle on hover */ 
-.library::-webkit-scrollbar-thumb:hover {
-      background: rgba(255, 255, 255,0.1);
-}
-  
-.heading{
-    display: flex;
-}
-.heading h1{
-    margin: 15px 15px;
-}
-.heading img{
-    width: 60px;
-    height: 60px;
-    margin: 6px 18px;
-}
 .library{
     min-height:  86vh;
     position: relative;

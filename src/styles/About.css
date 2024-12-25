@@ -1,0 +1,55 @@
+.AboutBack {
+  background-image: url(../Images/HomeBack.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-y: scroll;
+  height: 100vh;
+
+}
+.AboutBack::-webkit-scrollbar {
+  width: 12px;
+} /* Track */
+.AboutBack::-webkit-scrollbar-track {
+  border-radius: 6px;
+} /* Handle */
+.AboutBack::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+} /* Handle on hover */
+.AboutBack::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.AboutPage {
+  min-height: 35vh;
+  .My-span {
+    display: inline-block; /* or block */
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: Segoe Script;
+    /* background-color: rgb(255, 248, 220, 0.3);
+    border: 1px solid white; */
+  }
+}
+.Quote{
+    font-size: 50px;
+    background-color: rgb(44, 44, 108,0.3);
+    /* border-radius: 300px; */
+}
+.Information{
+   margin-top: 500px;
+   background-color: rgba(44, 44, 108,0.3);
+   border: 1px solid white;
+   border-radius: 50px;
+}
+.Information1{
+   font-size: 50px;
+}
+.ButtonForLyttePage {
+  margin-top: 200px;
+  margin-bottom: 100px;
+  font-size: 20px;
+  transition: box-shadow 2s ease ;
+}
+.ButtonForLyttePage:hover{
+  box-shadow: 0 0 5px 5px
+}
