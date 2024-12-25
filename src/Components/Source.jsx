@@ -11,20 +11,20 @@ import Header from './Header'
 function Source() {
 
   const [mystyle, setMystyle] = useState({
-    backgroundImage: 'url(../images/lightmode.png)',
+    backgroundImage: 'url(../lightmode.png)',
     backgroundSize: 'cover'
   })
 
   const togglestyle = () => {
-    if (mystyle.backgroundImage == 'url(../images/lightmode.png)') {
+    if (mystyle.backgroundImage == 'url(../lightmode.png)') {
       setMystyle({
-        backgroundImage: 'url(../images/darkmode.png)',
+        backgroundImage: 'url(../darkmode.png)',
         backgroundSize: 'cover'
       })
     }
     else {
       setMystyle({
-        backgroundImage: 'url(../images/lightmode.png)',
+        backgroundImage: 'url(../lightmode.png)',
         backgroundSize: 'cover'
       })
     }
