@@ -11,7 +11,7 @@ const About = () => {
   useEffect(() => {
     // Initialize Typed.js
     const typed = new Typed(typedElement.current, {
-      strings: ['Welcome to I-Beat/s Homepage '], // Strings to display
+      strings: ['Welcome to I-Beat! '], // Strings to display
       typeSpeed: 100, // Typing speed
     });
 
@@ -46,7 +46,10 @@ const About = () => {
           </p>
         </div>
         <div className="ButtonForLyttePage">
-          <button onClick={() => navigate('/Lytte')}><h3>Lets Lytte!</h3></button>
+          <div className="Ready-Mic"><h2>Ready for our music?! </h2>
+          <img src="mic.svg" alt=""/>
+          </div> 
+          <button className="glow-on-hover" onClick={() => navigate('/I-Beatt')}><h3>Lets Lytte!</h3></button>
         </div>
       </div>
     </>

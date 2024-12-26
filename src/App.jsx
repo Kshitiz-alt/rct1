@@ -24,8 +24,8 @@ function App() {
         <Routes>
           {/* Define the routes */}
           <Route path="/" element={<About />} />
-          <Route path="/Lytte" element={<Source />} />
-          <Route path="*" element={<Navigate to="/Lytte" />} />
+          <Route path="/I-Beatt" element={<Source />} />
+          <Route path="*" element={<Navigate to="/I-Beatt" />} />
         </Routes>
       </Router>
 
