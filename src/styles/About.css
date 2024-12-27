@@ -22,7 +22,13 @@
 }
 
 .AboutPage {
-  min-height: 45vh;
+  min-height: 85vh;
+  padding-top: 260px;
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  box-shadow: 10px 0 20px rgba(0, 4, 82, 0.5),
+  -10px 0 20px rgba(0, 0, 0, 0.5);
+
   .My-span {
     display: inline-block; /* or block */
     margin-top: 100px;
@@ -51,11 +57,13 @@
 }
 .Information {
   margin-top: 500px;
-  background-color: rgba(42, 0, 0, 0.3);
+
   box-shadow: inset 10px 0 20px rgba(0, 4, 82, 0.5),
      inset -10px 0 20px rgba(100, 0, 0, 0.5);
-  border: 1px solid white;
   border-radius: 50px;
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  padding-bottom: 1px;
 }
 .Information1 {
   font-size: 50px;
@@ -66,7 +74,7 @@
   gap: 20px;
 }
 .ButtonForLyttePage {
-  margin-top: 200px;
+  margin-top: 400px;
   margin-bottom: 100px;
   font-size: 18px;
   /* transition: box-shadow 2s ease ; */

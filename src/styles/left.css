@@ -1,56 +1,108 @@
-.left{
-    width: 25vw;
-    padding: 0px
+.left {
+  width: 25vw;
+  padding: 0px;
 }
-.Name{
-    font-size: 42px;
-    margin-top: -65px;
+.Name {
+  font-size: 30px;
+  font-family: "press start 2p";
 }
-.Home-Search{
-    margin-top: 4px;
-
+.Home-Search {
+  margin-top: 4px;
 }
-.Musio-Btn{
-    margin-left: -250px;
-    border-radius: 45px;
-    padding: 8px 10px;
-    transition: text-shadow 0.3s ease, background-color 0.3s ease;
-    background-color: rgb(255, 228, 196,0.2);
+.Musio-Btn {
+  gap: 50px;
+  margin-top: 18px;
+  border-radius: 45px;
+  padding: 8px 10px;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  background-color: rgb(255, 228, 196, 0.2);
+  margin-left: 6px;
+  margin-right: 6px;
 }
-.Musio-Btn:hover{
-    color: bisque;
-    text-shadow: 0 0 0px 0px rgba(255, 255, 255, 0.2);
-    background-color: rgba(255, 255, 255, 0.2);
+.Favicon {
+  margin-left: 10px;
 }
-.Musio h1{
-    margin-top: -55px;
-    font-size: 3rem;
+.Musio-Btn:hover {
+  color: bisque;
+  cursor: pointer;
+  /* box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.2); */
+  background-color: rgba(255, 255, 255, 0.2);
 }
-.Home{
-    display: flex;
-    margin: 6px;
-    color: white;
-    border-radius: 20px
+/* .Musio h1 {
+  margin-top: -55px;
+  font-size: 3rem;
+} */
+.Home {
+  display: flex;
+  margin: 6px;
+  color: white;
+  border-radius: 20px;
 }
-.Home0{
+/* .Home0{
     margin: 5px 1px;
-}
-.Home1{
-    margin: 9px 50px;
+} */
+.Home1 {
+  margin: 9px 50px;
 
-    transition: text-shadow 0.3s ease, background-color 0.3s ease;
-    border-radius: 25px;
-    font-size: 30px;
+  transition: text-shadow 0.3s ease, background-color 0.3s ease;
+  border-radius: 25px;
+  font-size: 30px;
 }
-.Home:hover{
-    color: bisque;
-    cursor: pointer;
-    text-shadow: 0 0 0px 0px rgba(255, 255, 255, 0.3);
-    background-color: rgba(255, 255, 255, 0.2);
-    border:1px solid white;
+.Home:hover {
+  color: bisque;
+  cursor: pointer;
+  text-shadow: 0 0 0px 0px rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid white;
 }
 
-.library{
-    min-height:  87vh;
-    position: relative;
+.center {
+  width: 180px;
+  height: 60px;
+  position: absolute;
+  margin: 0px 70px;
+}
+
+.btn1 {
+  display: flex;
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid grey;
+  outline: none;
+  transition: 1s ease-in-out;
+  box-shadow: inset 10px 0 20px rgba(0, 0, 0, 0.5),
+    inset -10px 0 20px rgba(0, 0, 0, 0.5);
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.btn1:hover {
+  transition: 1s ease-in-out;
+  background: grey;
+}
+
+.btn1:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn1 span {
+  color: white;
+  font-size: 26px;
+  font-weight: 100;
+}
+
+.library {
+  min-height: 87.25vh;
+  position: relative;
 }

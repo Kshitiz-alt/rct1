@@ -23,7 +23,7 @@ function App() {
       <Router>
         <Routes>
           {/* Define the routes */}
-          <Route path="/" element={<About />} />
+          <Route path="/About" element={<About />} />
           <Route path="/I-Beatt" element={<Source />} />
           <Route path="*" element={<Navigate to="/I-Beatt" />} />
         </Routes>

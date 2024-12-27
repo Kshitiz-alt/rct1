@@ -13,11 +13,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.container{
+  box-shadow: inset 10px 0 20px rgba(0, 0, 0, 0.5), inset -10px 0 20px rgba(0, 0, 0, 0.5);
+}
 
 a {
   display: flex;
   font-weight: 500;
-  color: #646cff;
   text-decoration: inherit;
 }
 .logo img{
