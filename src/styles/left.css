@@ -3,8 +3,9 @@
   padding: 0px;
 }
 .Name {
-  font-size: 30px;
+  font-size: 35px;
   font-family: "press start 2p";
+  padding-left: 70px;
 }
 .Home-Search {
   margin-top: 4px;
@@ -15,7 +16,8 @@
   border-radius: 45px;
   padding: 8px 10px;
   transition: box-shadow 0.3s ease, background-color 0.3s ease;
-  background-color: rgb(255, 228, 196, 0.2);
+  /* background-color: rgb(255, 228, 196, 0.2); */
+ 
   margin-left: 6px;
   margin-right: 6px;
 }
@@ -26,8 +28,37 @@
   color: bisque;
   cursor: pointer;
   /* box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.2); */
-  background-color: rgba(255, 255, 255, 0.2);
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: glowing 5s ease-in-out infinite;
+ 
 }
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
 /* .Musio h1 {
   margin-top: -55px;
   font-size: 3rem;
@@ -103,6 +134,6 @@ svg {
 }
 
 .library {
-  min-height: 87.25vh;
+  min-height: 86.75vh;
   position: relative;
 }

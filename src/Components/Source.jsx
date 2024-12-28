@@ -35,7 +35,7 @@ function Source() {
     <div className="container flex bg-black" style={mystyle}>
       <div className="left">
         <a className="Musio-Btn" onClick={togglestyle}>
-          <img className="Favicon" src="favicon.icon.png" alt="" />
+          {/* <img className="Favicon" src="favicon.icon.png" alt="" /> */}
           <div className="Name">I-Beat</div>
         </a>
           

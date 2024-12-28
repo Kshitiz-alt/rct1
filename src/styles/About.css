@@ -31,7 +31,7 @@
 
   .My-span {
     display: inline-block; /* or block */
-    margin-top: 100px;
+    margin-top: 88px;
     font-size: 35px;
     font-family: "Press Start 2P";
     /* background-color: rgb(255, 248, 220, 0.3);
@@ -42,6 +42,11 @@
   font-size: 50px;
   border-radius: 20px;
   background-color: rgb(44, 44, 108, 0.3);
+  background-color:rgba(255, 255, 255, 0.9);    
+  text-shadow:10px 10px 10px #676767; 
+  -webkit-background-clip: text;
+  background-clip: text;  
+  /* color: transparent;  */
   background: linear-gradient(
     to right,
     rgba(0, 0, 0, 0.8),
@@ -64,10 +69,38 @@
   -webkit-backdrop-filter: blur(6px);
   backdrop-filter: blur(6px);
   padding-bottom: 1px;
+
+
+  .Information1 {
+    font-size: 50px;
+    padding-bottom: 75px;
+    background-color:rgba(255, 255, 255, 0.9);    
+    text-shadow:10px 10px 10px #454545; 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; 
+    }
+  .Paragraph1{
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-bottom: 60px;
+    background-color:rgba(255, 255, 255, 0.9);    
+    text-shadow:10px 10px 10px #454545; 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; 
+  }
+  .Paragraph2{
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color:rgba(255, 255, 255, 0.9);    
+    text-shadow:10px 10px 10px #454545; 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; 
+  }
 }
-.Information1 {
-  font-size: 50px;
-}
+
 .Ready-Mic{
   display: flex;
   margin-left: 600px;
@@ -93,7 +126,7 @@
   border-radius: 10px;
   h3{
     font-family: "Press Start 2P";
-    font-size: 16px;
+    font-size: 14.5px;
   }
 }
 .glow-on-hover:before {

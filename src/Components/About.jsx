@@ -41,13 +41,17 @@ const About = () => {
               <h2 className="Information1">
                 Discover the Rhythm of Innovation:
               </h2>
-              <h2>At I-Beat, we understand the transformative power of music. Our platform is committed to connecting you with the pulse of your favorite artists, the rhythms that move your soul, and the melodies that ignite your passion. Whether you are an experienced musician or a devoted listener, I-Beat serves as your gateway to a world where every beat narrates a story and every note reverberates with significance.
+              <h2 className="Paragraph1">At I-Beat, we understand the transformative power of music. Our platform is committed to connecting you with the pulse of your favorite artists, the rhythms that move your soul, and the melodies that ignite your passion. Whether you are an experienced musician or a devoted listener, I-Beat serves as your gateway to a world where every beat narrates a story and every note reverberates with significance.
+              </h2>
+              <h2 className="Paragraph2">
+                We believe music is more than just sound—it’s emotion, connection, and inspiration. That’s why we’ve designed I-Beat to be more than just a streaming platform. It’s a hub for exploration, where you can connect with artists, explore genres, and find tracks that resonate with your unique style. With smart recommendations, curated playlists, and exclusive content, we bring the world of music to your fingertips.
+
               </h2>
               <div className="ButtonForLyttePage">
                 <div className="Ready-Mic"><h2>Ready for our music?! </h2>
                   <img src="mic.svg" alt="" />
                 </div>
-                <button className="glow-on-hover" onClick={() => navigate('/I-Beatt')}><h3>Lets Beatt!</h3></button>
+                <button className="glow-on-hover" onClick={() => navigate('/I-Beatt')}><h3>Lets I-Beat!</h3></button>
               </div>
 
             </div>

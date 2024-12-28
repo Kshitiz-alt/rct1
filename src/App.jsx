@@ -25,7 +25,7 @@ function App() {
           {/* Define the routes */}
           <Route path="/About" element={<About />} />
           <Route path="/I-Beatt" element={<Source />} />
-          <Route path="*" element={<Navigate to="/I-Beatt" />} />
+          <Route path="*" element={<Navigate to="/About" />} />
         </Routes>
       </Router>
 

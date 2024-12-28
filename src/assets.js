@@ -10,7 +10,7 @@ export const playlistsdata =[
         id:1,
         Name:"Romantic",
         image:"romance.jpg",
-        desc:"Music to my heart"
+        desc:"Music for heart"
 
 
     },
