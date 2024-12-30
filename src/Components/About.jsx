@@ -48,9 +48,6 @@ const About = () => {
 
               </h2>
               <div className="ButtonForLyttePage">
-                <div className="Ready-Mic"><h2>Ready for our music?! </h2>
-                  <img src="mic.svg" alt="" />
-                </div>
                 <button className="glow-on-hover" onClick={() => navigate('/I-Beatt')}><h3>Lets I-Beat!</h3></button>
               </div>
 

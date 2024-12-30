@@ -62,6 +62,7 @@
 }
 .Information {
   margin-top: 500px;
+  padding-top:200px ;
 
   box-shadow: inset 10px 0 20px rgba(0, 4, 82, 0.5),
      inset -10px 0 20px rgba(100, 0, 0, 0.5);

@@ -1,9 +1,11 @@
+
+
 export const playlistsdata =[
     {
         id:0,
         Name:"ViralhHits",
         image:"Viralhits.jpg",  
-        desc: "Viral, trending and taking off."
+        desc: "Viral, trending and taking off"
 
     },
     {
@@ -35,14 +37,14 @@ export const playlistsdata =[
 ]
 
 
-export const songsData = [
-    {
-        id:0,
-        Name:"Song1",
-        image:"song1.jpeg",
-        file:"/songs/Dn.mp3.mp3",
-        desc:"123",
-        duration:"3:00"
+// export const songsData = [
+//     {
+//         id:0,
+//         Name:"Song1",
+//         image:"song1.jpeg",
+//         file:"/songs/Dn.mp3.mp3",
+//         desc:"123",
+//         duration:"3:00"
 
-    }
-]    
+//     }
+// ]    

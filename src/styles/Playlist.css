@@ -1,0 +1,52 @@
+.Playlist-Down{
+    display: flex;
+
+    
+    
+}
+.Blackmic{
+  color: black;
+  animation-delay: transform 2s ease;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+.Blackmic:hover{
+  transform: scale(1);
+  box-shadow: inset 10px 0 10px rgba(0, 0, 0,0.4);
+  border: 1px solid black;
+}
+.Playlist-Down {
+    position: relative;
+    overflow-x: scroll;
+  }
+  .Playlist-Down::-webkit-scrollbar {
+    width: 12px;
+  } /* Track */ 
+  .Playlist-Down::-webkit-scrollbar-track {
+    
+    border-radius: 6px; 
+  } /* Handle */ 
+  .Playlist-Down::-webkit-scrollbar-thumb { 
+     
+    border-radius: 6px; 
+  } /* Handle on hover */ 
+  .Playlist-Down::-webkit-scrollbar-thumb:hover {
+      background: rgba(255, 255, 255,0.8);
+  }  
+  
+.Tracks{
+    background-color: rgba(255,255,255,0.2);
+    width: 230px;
+    /* transition: transform 0.3s ease,z-index 0.3s ease; */
+    /* z-index: 1; */
+}
+/* .Tracks:hover{
+    transform: scale(1.2);
+    z-index: 10;
+
+}*/
+.Tracks img{
+    width: 200px;
+    margin-left: 10px;
+    border-radius: 100px;
+}

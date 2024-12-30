@@ -16,7 +16,9 @@
     filter: invert(1);
 }
 .bg-bluish{
-    background-color: rgb(0 0 0 / 30%);
+    background-color: rgba(0 ,0 ,0 ,0.3);
+    box-shadow:  inset 10px 0 10px rgba(0, 0, 0,0.4),
+    inset -5px 0 10px rgba(205, 205, 255, 0.4);
 }
 .rounded{
     border-radius: 7px;
