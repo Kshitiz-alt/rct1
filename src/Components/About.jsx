@@ -29,8 +29,6 @@ const About = () => {
 
         <div className="AboutPage" >
           <span className="My-span" ref={typedElement} ></span>
-
-
         </div>
         <div className="Info About Lytte">
           <div className="P Info">
@@ -45,7 +43,6 @@ const About = () => {
               </h2>
               <h2 className="Paragraph2">
                 We believe music is more than just sound—it’s emotion, connection, and inspiration. That’s why we’ve designed I-Beat to be more than just a streaming platform. It’s a hub for exploration, where you can connect with artists, explore genres, and find tracks that resonate with your unique style. With smart recommendations, curated playlists, and exclusive content, we bring the world of music to your fingertips.
-
               </h2>
               <div className="ButtonForLyttePage">
                 <button className="glow-on-hover" onClick={() => navigate('/I-Beatt')}><h3>Lets I-Beat!</h3></button>

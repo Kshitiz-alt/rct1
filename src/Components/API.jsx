@@ -16,21 +16,6 @@ function API() {
 
     }
 
-    // const togglebar = () => {
-    //     if (playbar.animation == 'slideup 1s  ease-in-out forwards') {
-    //       setPlaybar({
-
-
-    //       })
-    //     }
-    //     else {
-    //       setPlaybar({
-
-    //       })
-    //     }
-    //   }
-
-
     return (
         <>
             <div>
