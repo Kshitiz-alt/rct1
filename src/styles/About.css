@@ -1,5 +1,5 @@
 .AboutBack {
-  background-image: url(../HomeBack.jpg);
+  background-image: url(/HomeBack.jpg);
   background-attachment: fixed;
   background-size: cover;
   overflow-y: scroll;
