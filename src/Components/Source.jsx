@@ -35,19 +35,13 @@ function Source() {
     <div className="container flex bg-black" style={mystyle}>
       <div className="left">
         <a className="Musio-Btn" onClick={togglestyle}>
-          {/* <img className="Favicon" src="favicon.icon.png" alt="" /> */}
+         
           <div className="Name">I-Beat</div>
         </a>
           
         <div className="library bg-bluish rounded m-1 p-1">
-          {/* <div className="Home m-1 p-1">
-            <a>
-              <img className="Home0" src={Home} alt="Home" />
-            </a>
-            <h2 onClick={() => navigate('/')} className="Home1">Home</h2>
-          </div> */}
           <div className="center">
-            <button className="btn1" onClick={() => navigate('/About')}>
+            <button className="btn0" onClick={() => navigate('/Login')}>
               <a>
                 <img className="Home0" src={Home} alt="Home" />
               </a>

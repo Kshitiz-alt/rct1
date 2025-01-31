@@ -8,10 +8,11 @@ function API() {
 
     const getTracks = async () => {
 
-        let data = await fetch("https://v1.nocodeapi.com/kshitiz/spotify/kcSkWwpnbVVitQWz/search?q=tnbee&type=track")
+        let data = await fetch("https://v1.nocodeapi.com/kshitiz/spotify/kcSkWwpnbVVitQWz/search?q=tnbee&type=track&id=50")
+      
 
         let convertedData = await data.json()
-        console.log(convertedData.tracks.item)
+        
         setTracks(convertedData.tracks.items)
 
     }

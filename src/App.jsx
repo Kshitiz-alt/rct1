@@ -7,6 +7,7 @@ import { Navigate } from 'react-router-dom'
 import './styles/App.css'
 import About from './Components/About';
 import Source from './Components/Source';
+import Login from './Components/Login/Login';
 
 
 // import Home from './Components/Home'
@@ -25,7 +26,8 @@ function App() {
           {/* Define the routes */}
           <Route path="/About" element={<About />} />
           <Route path="/I-Beatt" element={<Source />} />
-          <Route path="*" element={<Navigate to="/About" />} />
+          <Route path="/Login" element={<Login/>}/>
+          <Route path="*" element={<Navigate to="/Login" />} />
         </Routes>
       </Router>
 

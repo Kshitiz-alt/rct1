@@ -14,7 +14,6 @@ export default function Playlists() {
             <div className="Musio-Playlists">I-Beat Playlists</div>
             <div className="play-card">
                 {playlistsdata.map((item, index) => (<Playcard key={index} name={item.Name} desc={item.desc} id={item.id} image={item.image} api={item.api} />))}
-               
             </div> 
             
         </div>

@@ -100,7 +100,8 @@
   margin: 0px 70px;
 }
 
-.btn1 {
+.btn0{
+  margin-top: 3rem;
   display: flex;
   width: 180px;
   height: 60px;
@@ -115,8 +116,9 @@
 
 svg {
   position: absolute;
+  z-index: 1;
   left: 0;
-  top: 0;
+  top: 3rem;
   fill: none;
   stroke: #fff;
   stroke-dasharray: 150 480;
@@ -124,16 +126,16 @@ svg {
   transition: 1s ease-in-out;
 }
 
-.btn1:hover {
+.btn0:hover {
   transition: 1s ease-in-out;
   background: grey;
 }
 
-.btn1:hover svg {
+.btn0:hover svg {
   stroke-dashoffset: -480;
 }
 
-.btn1 span {
+.btn0 span {
   color: white;
   font-size: 26px;
   font-weight: 100;

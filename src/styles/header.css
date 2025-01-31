@@ -31,7 +31,17 @@
     border-radius: 10px;
     font-size: 20px;
     margin-right: 20px;
+    position: relative;
+    left: 61rem;
+    top: -1.75rem;
 }
+.btn-outline-success{
+    position: relative;
+    left: 91em;
+    top: -4.75rem;
+}
+
+
 .form-control{
     background-color: rgb(255, 248, 220,0.6);
 

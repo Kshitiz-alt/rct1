@@ -1,0 +1,121 @@
+body {
+  background-image: url(Back.gif);
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+html{
+
+  scroll-behavior: smooth;
+}
+.Section1 {
+  height: 100vh;
+  .LOGO {
+    font-family: forte;
+    font-size: 4em;
+    position: absolute;
+    left:2rem;
+    position: fixed;
+  }
+}
+.Section2 {
+  height: 100vh;
+  img {
+    transform: rotate(90deg);
+    position: absolute;
+    right: 1rem;
+    margin-top: 1rem;
+  }
+
+  .Back-btn {
+    img {
+      transition: all 1s ease;
+      transition-duration: 1000ms;
+      &:hover {
+        box-shadow: 0 0 10px 5px white;
+        border-radius: 10em;
+      }
+    }
+  }
+  form{
+    height: 50vh;
+  }
+}
+html {
+  scroll-snap-align: center;
+}
+
+nav {
+  display: flex;
+  position: absolute;
+  right: 4em;
+  top: 2em;
+ 
+  a{
+    cursor: pointer;
+    color: white;
+    position: relative;
+    font-size: 1.25em;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    &:hover{
+      color: aqua;
+    }
+  }
+  a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    margin-top: 2rem;
+    background: white;
+    transform: scaleX(0);
+    transition: all 1s ease;
+    
+
+  }
+  a:hover::after{
+    transform: scaleX(1);
+  }
+}
+.Login-Box{
+  position: relative;
+  width: 30%;
+  height: 40vh;
+  top: 10em;
+  left: 32em;
+  background-color: rgba(255,255,255,0.2);
+  border: 1px solid white;
+  border-radius: 1em;
+  box-shadow: 0 0 10px 1px white;  
+  .Login-details{
+    position: inherit;
+    top: 1rem;
+    h1{
+      position: inherit;
+      left:-7rem;
+    }
+    input{
+      font-size: 1.1125rem;
+      width: 20rem;
+      border-radius: 7px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+  }
+  .Login-btn{
+    position: inherit;
+    top: 3rem;
+    .Login-btnn{
+      color: white;
+      background-color: rgba(0, 0, 255,0.5);
+    } 
+    .SignUp-btnn{
+      color: white;
+      background-color: rgba(0, 0, 255,0.5);
+    }  
+    
+  }
+}
